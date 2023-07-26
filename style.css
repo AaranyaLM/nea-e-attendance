@@ -58,6 +58,7 @@ table {
     width: 97.5%;
     border-collapse: collapse;
     margin: 20px;
+    font-size: 14px;
 }
 
 th, td {
@@ -83,10 +84,8 @@ tr:hover {
     color: #444;
     padding: 20px;
     line-height: 30px;
-    font-size: 15px;
-    
+    font-size: 15px;   
     border: 1px solid #ccc;
-
     background-color: #f7f7f7;
 }
 
@@ -120,8 +119,6 @@ tr:hover {
     cursor: pointer;
     padding: 14px 16px;
     transition: background-color 0.3s ease; /* Smooth transition */
-    
-    
 }
 .dropbtn a{
     text-decoration: none;
@@ -131,7 +128,7 @@ tr:hover {
     background-color: #3d7cca; /* Darker shade on hover */
 }
 .dropbtn i{
-    margin-left: 14px;
+    margin-left: 59px;
 }
 .dropdown-content {
     display: none;
@@ -170,7 +167,7 @@ tr:hover {
 .log-out {
     position: absolute;
     bottom: 30px;
-    left: 30px;
+    left: 24px;
 }
 
 .log-out a {
@@ -183,8 +180,8 @@ tr:hover {
     transition: background-color 0.3s ease;
     display: block;
     font-weight: 100;
+    transition: all 0.2s;
 }
-
-.log-out a:hover {
-    background-color: #3d7cca;
+.log-out i{
+    margin-left: 4px;
 }
