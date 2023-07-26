@@ -110,11 +110,12 @@ tr:hover {
     display: inline-block;
     margin-top: 20px;
 }
-
+.calender, .dropbtn{
+    font-size: 14px;
+}
 .dropbtn {
     background-color: #3065af;
     color: #fff;
-    font-size: 16px;
     border: none;
     cursor: pointer;
     padding: 14px 16px;
@@ -129,7 +130,9 @@ tr:hover {
 .dropbtn:hover, .dropbtn:focus {
     background-color: #3d7cca; /* Darker shade on hover */
 }
-
+.dropbtn i{
+    margin-left: 14px;
+}
 .dropdown-content {
     display: none;
     position: absolute;
@@ -150,9 +153,13 @@ tr:hover {
     text-decoration: none;
     display: block;
 }
+.dropdown-content a{
+    font-size: 13px;
+}
 
 .dropdown-content a:hover, .calender a:hover {
     background-color: #3d7cca; /* Darker shade on hover */
+    
 }
 
 .dropdown:hover .dropdown-content {
