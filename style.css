@@ -103,6 +103,7 @@ tr:hover {
     flex-grow: 1;
     text-align: right;
 }
+
 /* Dropdown menu style */
 .dropdown {
     position: relative;
@@ -118,7 +119,7 @@ tr:hover {
     cursor: pointer;
     padding: 14px 16px;
     transition: background-color 0.3s ease; /* Smooth transition */
-    letter-spacing: 0.01em;
+    
     
 }
 .dropbtn a{
@@ -158,4 +159,25 @@ tr:hover {
     display: block;
     opacity: 1;
     transform: translateY(0);
+}
+.log-out {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.log-out a {
+    background-color: #3065af;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    display: block;
+    font-weight: 100;
+}
+
+.log-out a:hover {
+    background-color: #3d7cca;
 }
