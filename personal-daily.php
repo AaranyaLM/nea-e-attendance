@@ -6,6 +6,7 @@
     <title>E-Attendance | Personal Daily Report</title>
     <script src="https://kit.fontawesome.com/1ae1db6a1d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="nea.png"/>
 </head>
 <body>
     <div class="container">
@@ -16,7 +17,7 @@
                 </div>  
             
                 <div class="menu">
-                <div class="menu-item">
+                    <div class="menu-item">
                         <a href="">Dashboard</a>
                     </div>
                      <!-- Drop-down menu -->

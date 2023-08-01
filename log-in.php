@@ -1,19 +1,5 @@
 <?php
-// Start the session (if not already started)
-session_start();
-// Database connection details
-$db_host = "localhost";
-$db_user = "root";
-$db_password = "";
-$db_name = "NEA";
-// Create a database connection
-$conn = new mysqli($db_host, $db_user, $db_password, $db_name);
-// Check the connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-
+include 'connection.php'; 
 if($_SERVER['REQUEST_METHOD'] == "POST")
 {
     //something was posted
@@ -62,6 +48,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/png" href="nea.png"/>
 </head>
 
 <body>

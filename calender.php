@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <script src="calenderscript.js" defer></script>
     <script src="https://kit.fontawesome.com/1ae1db6a1d.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/png" href="nea.png"/>
   </head>
   <body>
     <div class="container">
@@ -18,6 +19,9 @@
             </div>  
         
             <div class="menu">
+                  <div class="menu-item">
+                        <a href="">Dashboard</a>
+                    </div>
                  <!-- Drop-down menu -->
                  <div class="menu-item">
                     <div class="dropdown">
