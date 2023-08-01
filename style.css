@@ -90,8 +90,8 @@ tr:hover {
 }
 
 .employee-data .data-item {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .employee-data .data-label {

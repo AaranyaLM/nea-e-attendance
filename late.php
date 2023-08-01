@@ -21,23 +21,23 @@
                         <div class="dropdown">
                             <button class="dropbtn"><a href="">Reports</a> <i class="fas fa-caret-down"></i></button>
                             <div class="dropdown-content">
-                                <a href="personal-daily.html">Personal Daily Report</a>
-                                <a href="leave.html">Leave Report</a>
-                                <a href="late.html">Late Report</a>
-                                <a href="log.html">Log Report</a>
+                                <a href="personal-daily.php">Personal Daily Report</a>
+                                <a href="leave.php">Leave Report</a>
+                                <a href="late.php">Late Report</a>
+                                <a href="log.php">Log Report</a>
                             </div>
                         </div>
                      </div>
                     <div class="menu-item">
                         <div class="calender">
-                            <a href="calender.html">Calender</a>
+                            <a href="calender.php">Calender</a>
                         </div>
                     </div>
                     
                 </div>
                
                 <div class="log-out">
-                    <a href="log-in.html">Log Out <i class="fa-solid fa-right-from-bracket" style="color: #ffffff;"></i></a>
+                    <a href="log-in.php">Log Out <i class="fa-solid fa-right-from-bracket" style="color: #ffffff;"></i></a>
                 </div>                   
             
         </div>

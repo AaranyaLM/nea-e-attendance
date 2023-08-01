@@ -40,6 +40,17 @@ img{
 .login-box form{
     padding: 0 40px;
 }
+
+.error-message {
+    color: rgb(255, 107, 107);
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: center;
+    padding: 10px;
+ 
+    border-radius: 20px;
+}
+
 .content{
    margin-top: 100px;
 }

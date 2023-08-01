@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Attendance | Personal Daily Report</title>
+    <title>E-Attendance | Log Report</title>
     <script src="https://kit.fontawesome.com/1ae1db6a1d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -21,23 +21,23 @@
                         <div class="dropdown">
                             <button class="dropbtn"><a href="">Reports</a> <i class="fas fa-caret-down"></i></button>
                             <div class="dropdown-content">
-                                <a href="personal-daily.html">Personal Daily Report</a>
-                                <a href="leave.html">Leave Report</a>
-                                <a href="late.html">Late Report</a>
-                                <a href="log.html">Log Report</a>
+                                <a href="personal-daily.php">Personal Daily Report</a>
+                                <a href="leave.php">Leave Report</a>
+                                <a href="late.php">Late Report</a>
+                                <a href="log.php">Log Report</a>
                             </div>
                         </div>
                      </div>
                     <div class="menu-item">
                         <div class="calender">
-                            <a href="calender.html">Calender</a>
+                            <a href="calender.php">Calender</a>
                         </div>
                     </div>
                     
                 </div>
                
                 <div class="log-out">
-                    <a href="log-in.html">Log Out <i class="fa-solid fa-right-from-bracket" style="color: #ffffff;"></i></a>
+                    <a href="log-in.php">Log Out <i class="fa-solid fa-right-from-bracket" style="color: #ffffff;"></i></a>
                 </div>                   
             
         </div>
@@ -48,7 +48,7 @@
                     <h1>NEA Centralized E-Attendance</h1>
                 </div>
                 <div class="sub-title">
-                    <h2>Personal Daily Report</h2>
+                    <h2>Log Report</h2>
                 </div>
             </div>
 
@@ -79,44 +79,25 @@
             <div class="table">
                 <table>
                     <tr>
-                        <th>S.N</th>
-                        <th>Date</th>
-                        <th>In</th>
-                        <th>Out</th>
-                        <th>Work Duration</th>
-                        <th>Status</th>
+                        <th>Attendance Date</th>
+                        <th>Emp Name</th>
+                        <th>Emp Personal Code</th>
+                        <th>In Time</th>
+                        <th>Out TIme</th>
                         <th>Month Status</th>
-                        <th>Remarks</th>
+                        <th>Punch Records</th>
+                        <th>Logs</th>
                     </tr>
                     <tr>
-                        <td>1</td>
-                        <td>2023-07-01</td>
-                      
-                        <td>10:00 AM</td>
-                        <td>05:00 PM</td>
-                        <td>07:00</td>
+                        <td>2080/03/01</td>
+                        <td>Aniv</td>
+                        <td>158920</td>
+                        <td>03:27</td>
+                        <td>03:40</td>
                         <td>Present</td>
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>2023-07-02</td>
-                   
-                        <td>10:00 AM</td>
-                        <td>05:00 PM</td>
-                        <td>07:00</td>
-                        <td>Present</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>2023-07-03</td>
-                  
-                        <td>10:00 AM</td>
-                        <td>05:00 PM</td>
-                        <td>07:00</td>
-                        <td>Present</td>
-                    </tr>
-                    
                 </table>
+                    
             </div>
             
         </div>
