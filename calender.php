@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <script src="calenderscript.js" defer></script>
     <script src="https://kit.fontawesome.com/1ae1db6a1d.js" crossorigin="anonymous"></script>
-
   </head>
   <body>
     <div class="container">

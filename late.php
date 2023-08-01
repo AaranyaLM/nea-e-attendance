@@ -16,6 +16,9 @@
                 </div>  
             
                 <div class="menu">
+                    <div class="menu-item">
+                        <a href="">Dashboard</a>
+                    </div>
                      <!-- Drop-down menu -->
                      <div class="menu-item">
                         <div class="dropdown">
@@ -29,9 +32,7 @@
                         </div>
                      </div>
                     <div class="menu-item">
-                        <div class="calender">
                             <a href="calender.php">Calender</a>
-                        </div>
                     </div>
                     
                 </div>
